@@ -9,6 +9,7 @@ const Home = () => {
     return <View>
         <Text>Home</Text>
         <Button onPress={() => navigation.navigate('detail', { rate: 3 })}>Go to Details</Button>
+        <Button onPress={() => navigation.navigate('setUserName')}>Set your name</Button>
     </View>
 }
 
